@@ -27,7 +27,7 @@ import Underline from '@ckeditor/ckeditor5-basic-styles/src/underline.js';
 import SpecialCharacters from '@ckeditor/ckeditor5-special-characters/src/specialcharacters';
 
 function SpecialCharactersEmoji( editor ) {
-    editor.plugins.get( 'SpecialCharacters' ).addItems( 'Emoji', 
+    editor.plugins.get( 'SpecialCharacters' ).addItems( 'Smileys & People', 
 	[
 	  {
 		"title": ":grinning_face:",
@@ -1072,150 +1072,8 @@ function SpecialCharactersEmoji( editor ) {
 	]);
 }
 
-function SpecialCharactersItem( editor ) {
-    editor.plugins.get( 'SpecialCharacters' ).addItems( 'Item', 
-	[
-	  {
-		"title": ":hole:",
-		"character": "🕳"
-	  },
-	  {
-		"title": ":glasses:",
-		"character": "👓"
-	  },
-	  {
-		"title": ":sunglasses:",
-		"character": "🕶"
-	  },
-	  {
-		"title": ":necktie:",
-		"character": "👔"
-	  },
-	  {
-		"title": ":t-shirt:",
-		"character": "👕"
-	  },
-	  {
-		"title": ":jeans:",
-		"character": "👖"
-	  },
-	  {
-		"title": ":scarf:",
-		"character": "🧣"
-	  },
-	  {
-		"title": ":gloves:",
-		"character": "🧤"
-	  },
-	  {
-		"title": ":coat:",
-		"character": "🧥"
-	  },
-	  {
-		"title": ":socks:",
-		"character": "🧦"
-	  },
-	  {
-		"title": ":dress:",
-		"character": "👗"
-	  },
-	  {
-		"title": ":kimono:",
-		"character": "👘"
-	  },
-	  {
-		"title": ":bikini:",
-		"character": "👙"
-	  },
-	  {
-		"title": ":woman’s_clothes:",
-		"character": "👚"
-	  },
-	  {
-		"title": ":purse:",
-		"character": "👛"
-	  },
-	  {
-		"title": ":handbag:",
-		"character": "👜"
-	  },
-	  {
-		"title": ":clutch_bag:",
-		"character": "👝"
-	  },
-	  {
-		"title": ":shopping_bags:",
-		"character": "🛍"
-	  },
-	  {
-		"title": ":backpack:",
-		"character": "🎒"
-	  },
-	  {
-		"title": ":man’s_shoe:",
-		"character": "👞"
-	  },
-	  {
-		"title": ":running_shoe:",
-		"character": "👟"
-	  },
-	  {
-		"title": ":high-heeled_shoe:",
-		"character": "👠"
-	  },
-	  {
-		"title": ":woman’s_sandal:",
-		"character": "👡"
-	  },
-	  {
-		"title": ":woman’s_boot:",
-		"character": "👢"
-	  },
-	  {
-		"title": ":crown:",
-		"character": "👑"
-	  },
-	  {
-		"title": ":woman’s_hat:",
-		"character": "👒"
-	  },
-	  {
-		"title": ":top_hat:",
-		"character": "🎩"
-	  },
-	  {
-		"title": ":graduation_cap:",
-		"character": "🎓"
-	  },
-	  {
-		"title": ":billed_cap:",
-		"character": "🧢"
-	  },
-	  {
-		"title": ":rescue_worker’s_helmet:",
-		"character": "⛑"
-	  },
-	  {
-		"title": ":prayer_beads:",
-		"character": "📿"
-	  },
-	  {
-		"title": ":lipstick:",
-		"character": "💄"
-	  },
-	  {
-		"title": ":ring:",
-		"character": "💍"
-	  },
-	  {
-		"title": ":gem_stone:",
-		"character": "💎"
-	  },
-	]);
-}
-
 function SpecialCharactersAnimal( editor ) {
-    editor.plugins.get( 'SpecialCharacters' ).addItems( 'Animal', 
+    editor.plugins.get( 'SpecialCharacters' ).addItems( 'Animals & Nature', 
 	[
 	  {
 		"title": ":monkey_face:",
@@ -1673,7 +1531,7 @@ function SpecialCharactersAnimal( editor ) {
 }
 
 function SpecialCharactersFruit( editor ) {
-    editor.plugins.get( 'SpecialCharacters' ).addItems( 'Fruit', 
+    editor.plugins.get( 'SpecialCharacters' ).addItems( 'Food & Drink', 
 	[
 	  {
 		"title": ":grapes:",
@@ -1862,8 +1720,151 @@ function SpecialCharactersFruit( editor ) {
 	]);
 }
 
+
+function SpecialCharactersItem( editor ) {
+    editor.plugins.get( 'SpecialCharacters' ).addItems( 'Object', 
+	[
+	  {
+		"title": ":hole:",
+		"character": "🕳"
+	  },
+	  {
+		"title": ":glasses:",
+		"character": "👓"
+	  },
+	  {
+		"title": ":sunglasses:",
+		"character": "🕶"
+	  },
+	  {
+		"title": ":necktie:",
+		"character": "👔"
+	  },
+	  {
+		"title": ":t-shirt:",
+		"character": "👕"
+	  },
+	  {
+		"title": ":jeans:",
+		"character": "👖"
+	  },
+	  {
+		"title": ":scarf:",
+		"character": "🧣"
+	  },
+	  {
+		"title": ":gloves:",
+		"character": "🧤"
+	  },
+	  {
+		"title": ":coat:",
+		"character": "🧥"
+	  },
+	  {
+		"title": ":socks:",
+		"character": "🧦"
+	  },
+	  {
+		"title": ":dress:",
+		"character": "👗"
+	  },
+	  {
+		"title": ":kimono:",
+		"character": "👘"
+	  },
+	  {
+		"title": ":bikini:",
+		"character": "👙"
+	  },
+	  {
+		"title": ":woman’s_clothes:",
+		"character": "👚"
+	  },
+	  {
+		"title": ":purse:",
+		"character": "👛"
+	  },
+	  {
+		"title": ":handbag:",
+		"character": "👜"
+	  },
+	  {
+		"title": ":clutch_bag:",
+		"character": "👝"
+	  },
+	  {
+		"title": ":shopping_bags:",
+		"character": "🛍"
+	  },
+	  {
+		"title": ":backpack:",
+		"character": "🎒"
+	  },
+	  {
+		"title": ":man’s_shoe:",
+		"character": "👞"
+	  },
+	  {
+		"title": ":running_shoe:",
+		"character": "👟"
+	  },
+	  {
+		"title": ":high-heeled_shoe:",
+		"character": "👠"
+	  },
+	  {
+		"title": ":woman’s_sandal:",
+		"character": "👡"
+	  },
+	  {
+		"title": ":woman’s_boot:",
+		"character": "👢"
+	  },
+	  {
+		"title": ":crown:",
+		"character": "👑"
+	  },
+	  {
+		"title": ":woman’s_hat:",
+		"character": "👒"
+	  },
+	  {
+		"title": ":top_hat:",
+		"character": "🎩"
+	  },
+	  {
+		"title": ":graduation_cap:",
+		"character": "🎓"
+	  },
+	  {
+		"title": ":billed_cap:",
+		"character": "🧢"
+	  },
+	  {
+		"title": ":rescue_worker’s_helmet:",
+		"character": "⛑"
+	  },
+	  {
+		"title": ":prayer_beads:",
+		"character": "📿"
+	  },
+	  {
+		"title": ":lipstick:",
+		"character": "💄"
+	  },
+	  {
+		"title": ":ring:",
+		"character": "💍"
+	  },
+	  {
+		"title": ":gem_stone:",
+		"character": "💎"
+	  },
+	]);
+}
+
 function SpecialCharactersFlag( editor ) {
-    editor.plugins.get( 'SpecialCharacters' ).addItems( 'Flag', 
+    editor.plugins.get( 'SpecialCharacters' ).addItems( 'Flags', 
 	[
 	  {
 		"title": ":black_flag:",

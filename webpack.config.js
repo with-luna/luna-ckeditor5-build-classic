@@ -57,10 +57,10 @@ module.exports = {
 		} ),
 		new webpack.NormalModuleReplacementPlugin(
 			/specialcharacters\.svg/,
-			'.././src/emoji.svg'
-		)
+			'.././src/emoji.svg',
+		),
 	],
-
+	
 	module: {
 		rules: [
 			{
