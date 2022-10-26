@@ -98,10 +98,6 @@ function SpecialCharactersEmoji( editor ) {
 		"character": "😚"
 	  },
 	  {
-		"title": ":smiling_face:",
-		"character": "☺"
-	  },
-	  {
 		"title": ":slightly_smiling_face:",
 		"character": "🙂"
 	  },
@@ -1073,6 +1069,12 @@ function SpecialCharactersEmoji( editor ) {
 		"title": ":thought_balloon:",
 		"character": "💭"
 	  },
+	]);
+}
+
+function SpecialCharactersItem( editor ) {
+    editor.plugins.get( 'SpecialCharacters' ).addItems( 'Item', 
+	[
 	  {
 		"title": ":hole:",
 		"character": "🕳"
@@ -1209,6 +1211,12 @@ function SpecialCharactersEmoji( editor ) {
 		"title": ":gem_stone:",
 		"character": "💎"
 	  },
+	]);
+}
+
+function SpecialCharactersAnimal( editor ) {
+    editor.plugins.get( 'SpecialCharacters' ).addItems( 'Animal', 
+	[
 	  {
 		"title": ":monkey_face:",
 		"character": "🐵"
@@ -1661,6 +1669,12 @@ function SpecialCharactersEmoji( editor ) {
 		"title": ":leaf_fluttering_in_wind:",
 		"character": "🍃"
 	  },
+	]);
+}
+
+function SpecialCharactersFruit( editor ) {
+    editor.plugins.get( 'SpecialCharacters' ).addItems( 'Fruit', 
+	[
 	  {
 		"title": ":grapes:",
 		"character": "🍇"
@@ -1845,6 +1859,12 @@ function SpecialCharactersEmoji( editor ) {
 		"title": ":egg:",
 		"character": "🥚"
 	  },
+	]);
+}
+
+function SpecialCharactersFlag( editor ) {
+    editor.plugins.get( 'SpecialCharacters' ).addItems( 'Flag', 
+	[
 	  {
 		"title": ":black_flag:",
 		"character": "🏴"
@@ -2930,7 +2950,7 @@ Editor.builtinPlugins = [
 	TodoList,
 	Underline,
 
-	SpecialCharacters, SpecialCharactersEmoji, 
+	SpecialCharacters, SpecialCharactersEmoji, SpecialCharactersFlag, SpecialCharactersItem, SpecialCharactersAnimal, SpecialCharactersFruit,
 ];
 
 // Editor configuration.
